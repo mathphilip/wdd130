@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+
+:root {
+    --primary-color: #0077b6;
+    --secondary-color: #00b4d8;
+    --accent1-color: #0d1b2a;
+    --accent2-color: #1b263b;
+
+    --heading-font: 'Roboto Serif', serif;
+    --paragraph-font: 'Roboto Serif', serif;
+
+    --nav-background-color: #caf0f8;
+    --nav-link-color: #1b446e;
+    --nav-hover-link-color: #0d1b2a;
+    --nav-hover-background-color: #90e0ef;
+}
+
+/* body {
+    font-family: var(--primary-color);
+    max-width: 960px;
+    padding: 20px;
+} */
+
+h1,h2,p {
+    font-family: var(--heading-font);
+    color: black;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color:var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero {
+    position: relative;
+}
+.hero h1{
+    position: absolute;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article h1{
+    position: absolute;
+}
+.hero article img{
+    float: right;
+}
