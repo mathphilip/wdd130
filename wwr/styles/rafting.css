@@ -55,9 +55,7 @@ article img {
     float: right;
     margin: 0 0 10px 10px;
 }
-/* wwr/styles/rafting.css */
 
-/* ... (previous styles) ... */
 
 header {
     display: grid;
@@ -115,7 +113,55 @@ figcaption {
     font-style: italic;
 }
 
-/* Style for Footer */
+
+
+.company-info,
+.employee-profiles,
+.user-comment-form {
+    margin: 20px 0;
+}
+
+.google-map {
+    /* Style your Google Map container if needed */
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee-profiles figure {
+    text-align: center;
+    max-width: 200px;
+}
+
+.employee-profiles img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.user-comment-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.user-comment-form label {
+    font-weight: bold;
+}
+
+.user-comment-form textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.user-comment-form button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
 footer {
     display: flex;
     justify-content: flex-end;
