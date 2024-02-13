@@ -1,76 +1,137 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* wwr/styles/rafting.css */
+
+@import url('https://fonts.googleapis.com/css2?family=YourSelectedFont');
+
+:root {
+    --main-text-color: #333;
+    --heading-color: #0066cc;
+    --background-color: #f8f8f8;
 }
 
-main {
-    grid-column: 2/3;
-    margin: 1rem;
-}
-/* Class Selector */
-nav{
-    background-color: steelblue;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-nav a{
-    display: block;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color:#fff;
-}
-.box{
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-}
-.grid{
-    display: grid;
-    align-items: center;
-}
-aside{
-    width: 20em;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    }
-
-aside img{
-    width: 200px;
-    height: auto;
-}
-aside h2{
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-
-main img{
-    width: 150px;
-    height: auto;
-    float: right;
-}
-
-p{
-    padding: 0;
-}
-h1{
-    border-bottom: #0e0101;
-}
-header,.grid,footer{
-    max-width: 840px;
+body {
+    font-family: 'YourSelectedFont', sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+    max-width: 800px; /* You can adjust this based on your design */
     margin: 0 auto;
 }
 
-footer{
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    ;
+header {
+    /* Add styling for header */
+}
+
+nav {
+    /* Add styling for navigation */
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--heading-color);
+}
+
+article {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+    padding: 20px;
+    text-align: center;
+}
+
+article img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+/* wwr/styles/rafting.css */
+
+/* ... (previous styles) ... */
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Logo takes auto width, rest of the space for navigation */
+    align-items: center;
+    padding: 20px;
+    background-color: #0066cc;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Style for History section */
+section h2 {
+    color: #0066cc;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* Style for Adventures section */
+section:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Style for Footer */
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+    margin-right: 20px;
+}
+
+footer a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
