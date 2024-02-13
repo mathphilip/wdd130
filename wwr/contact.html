@@ -1,0 +1,96 @@
+<!-- wwr/contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="White Water Rafting Logo">
+        </div>
+        <h1>White Water Rafting Adventures</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Company Information -->
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <p>Address: 28 Awori Street, Egbeda, Lagos, Nigeria</p>
+            <p>Phone: +234 809 304 6050</p>
+            <p>Email: info@matthewphilipnse.com</p>
+            <!-- Embed Google Map -->
+            <div class="google-map">
+                <!-- Replace the following iframe code with your actual Google Map embed code -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d-86.123456!3d40.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDU0JzI0LjMiTiA4NsKwMTAnNTguMyJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee.jpg" alt="Employee 1">
+                <figcaption>James Bill<br>Adventure Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee.jpg" alt="Employee 2">
+                <figcaption>Jane Smith<br>River Expert</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee.jpg" alt="Employee 3">
+                <figcaption>Bob Johnson<br>Customer Support</figcaption>
+            </figure>
+        </section>
+
+        <!-- User Comment Form -->
+        <section class="user-comment-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="purpose">Purpose of Message:</label>
+                <select id="purpose" name="purpose" required>
+                    <option value="general">General Inquiry</option>
+                    <option value="reservation">Reservation Question</option>
+                    <option value="suggestion">Website Suggestion</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 White Water Rafting. All rights reserved. Created by Your Name</p>
+        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+    </footer>
+</body>
+</html>
