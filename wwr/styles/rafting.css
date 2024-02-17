@@ -2,27 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 :root {
+    --heading-color: #fff;
     --main-text-color: #333;
     --heading-color: #0066cc;
     --background-color: #f8f8f8;
 }
 
 body {
-    font-family: 'YourSelectedFont', sans-serif;
+    font-family: sans-serif;
     color: var(--main-text-color);
     background-color: var(--background-color);
     max-width: 800px; /* You can adjust this based on your design */
     margin: 0 auto;
 }
-
-header {
-    /* Add styling for header */
-}
-
-nav {
-    /* Add styling for navigation */
-}
-
 .hero {
     position: relative;
 }
@@ -67,11 +59,6 @@ header {
 .logo img {
     max-width: 100%;
     height: auto;
-}
-
-h1 {
-    color: #fff;
-    margin: 0;
 }
 
 nav {
