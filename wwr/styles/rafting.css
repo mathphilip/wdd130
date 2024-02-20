@@ -15,14 +15,16 @@ body {
     max-width: 800px; /* You can adjust this based on your design */
     margin: 0 auto;
 }
-.hero {
+.hero img {
     position: relative;
+    width: 100%;
 }
 
-.hero img {
-    width: 100%;
-    display: block;
+.hero section article{
+    display: flex;
+
 }
+
 
 h1 {
     position: absolute;
@@ -37,7 +39,7 @@ article {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+    background-color: rgba(247, 239, 239, 0.8); /* Adjust opacity as needed */
     padding: 20px;
     text-align: center;
 }
@@ -53,7 +55,8 @@ header {
     grid-template-columns: auto 1fr; /* Logo takes auto width, rest of the space for navigation */
     align-items: center;
     padding: 20px;
-    background-color: #0066cc;
+    background-color: #020b14b4;
+    color: #0e0505;
 }
 
 .logo img {
@@ -65,6 +68,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #0e0505;
 }
 
 nav a {
